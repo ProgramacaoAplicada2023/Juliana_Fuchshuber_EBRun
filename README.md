@@ -14,4 +14,4 @@ O TAF é um aspecto muito importante na vida de todo militar, pois influencia di
 
 ## Tutorial
 
-O aplicativo utiliza a estrutura de desenvolvimento de interface gráfica de usuário WPF (Windows Presentation Foundation), da Microsoft, desenvolvido com a linguagem de programação C#. Para a execução do aplicativo, inicialmente, certifique-se de ter a versão 4.7.2 ou superior do .NET Framework instalada em seu desktop. Em seguida, adiquira manualmente o arquivo executável (.exe) em formato ZIP, realize a extração dos arquivos e execute o aplicativo.
+O aplicativo utiliza a estrutura de desenvolvimento de interface gráfica de usuário WPF (Windows Presentation Foundation), da Microsoft, desenvolvido com a linguagem de programação C#. Para a execução do aplicativo, inicialmente, certifique-se de ter a versão 4.7.2 ou superior do .NET Framework instalada em seu desktop. Em seguida, adquira manualmente o arquivo executável (.exe) em formato ZIP, realize a extração dos arquivos e execute o aplicativo.
