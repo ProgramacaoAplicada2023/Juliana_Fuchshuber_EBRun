@@ -1,0 +1,53 @@
+﻿<Window x:Class="EB_Run.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EB_Run"
+        xmlns:viewModel="clr-namespace:EB_Run.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    
+    <Border Background="#1B1E39">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Background="#252853">
+                <Image Source="Images/EBRun_Logo.png" Margin="20,20,20,10"></Image>
+                
+                <RadioButton Content="INÍCIO"
+                             Foreground="White"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="MONTE SEU TREINO"
+                             Foreground="White"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="INFORMAÇÕES"
+                             Foreground="White"
+                             Style="{StaticResource MenuButtonTheme}"/>
+            </StackPanel>
+
+            <ContentControl Grid.Column="1"
+                            Margin="10"
+                            Content="{Binding currentView}"/>
+
+            <Image Source="Images/Fundo.png"
+                   Grid.Column="1"
+                   HorizontalAlignment="Right"
+                   Margin="0,2,2,2"/>
+
+
+
+        </Grid>
+    </Border>
+</Window>
