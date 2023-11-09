@@ -37,17 +37,17 @@
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
 
-            <ContentControl Grid.Column="1"
-                            Margin="10"
-                            Content="{Binding currentView}"/>
-
             <Image Source="Images/Fundo.png"
                    Grid.Column="1"
                    HorizontalAlignment="Right"
                    Margin="0,2,2,2"/>
+            
+            <ContentControl Grid.Column="1"
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
 
-
-
+            
         </Grid>
     </Border>
 </Window>
+

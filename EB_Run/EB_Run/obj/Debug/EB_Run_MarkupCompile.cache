@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\App.xaml
-3-1150061975
+5-354924270
 
-10-421187860
+11434123579
 13-1310406943
-MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\TreinoView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
 False
 

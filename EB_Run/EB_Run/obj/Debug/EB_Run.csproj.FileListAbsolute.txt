@@ -19,3 +19,6 @@ C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\App.baml
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\HomeView.g.cs
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\HomeView.baml
+C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\Theme\TextboxTheme.baml
+C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\TreinoView.g.cs
+C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\TreinoView.baml
