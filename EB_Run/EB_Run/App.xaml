@@ -18,7 +18,12 @@
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
                 <view:HomeView/>
             </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModel:TreinoViewModel}">
+                <view:TreinoView/>
+            </DataTemplate>
 
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -5,8 +5,13 @@ namespace EB_Run.MVVM.ViewModel
 {
     internal class MainViewModel : ObservableObject
     {
+
+		public RelayCommand HomeViewCommand { get; set; }
+		public RelayCommand TreinoViewCommand { get; set; }
+
 		public HomeViewModel HomeVM{ get; set; }
-		private object _currentView;
+        public TreinoViewModel TreinoVM { get; set; }
+        private object _currentView;
 
 		public object CurrentView
 		{
@@ -21,8 +26,20 @@ namespace EB_Run.MVVM.ViewModel
 		public MainViewModel()
 		{
 			HomeVM = new HomeViewModel();
-			CurrentView = HomeVM; 
-		}
+            TreinoVM = new TreinoViewModel();
+            CurrentView = HomeVM;
+
+			HomeViewCommand = new RelayCommand(o =>
+			{
+				CurrentView = HomeVM;
+			});
+
+            TreinoViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = TreinoVM;
+            });
+
+        }
 
 
 	}
