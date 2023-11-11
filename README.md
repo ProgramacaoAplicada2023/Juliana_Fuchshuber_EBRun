@@ -15,3 +15,19 @@ O TAF é um aspecto muito importante na vida de todo militar, pois influencia di
 ## Tutorial
 
 O aplicativo utiliza a estrutura de desenvolvimento de interface gráfica de usuário WPF (Windows Presentation Foundation) da Microsoft e é desenvolvido com a linguagem de programação C#. Para executar o aplicativo, certifique-se inicialmente de possuir instalada a versão 4.7.2 ou superior do .NET Framework em seu desktop. Em seguida, faça o download manual do arquivo executável (.exe) no formato ZIP, extraia os arquivos e execute o aplicativo.
+## Esboço do aplicativo 
+
+![Tela Inicial](EBrun.jpeg)
+Formato: ![Alt Text](url)
+
+A tela inicial do nosso aplicativo de treino para corrida apresenta um design intuitivo e funcional com três opções principais no menu de tarefas para optimizar a experiência do usuário.
+1. Início:
+   O ponto de partida para os corredores, permitindo um acesso rápido às atividades recentes e estatíticas de desempenho. Os usuários podem acompanhar suas corridas diretamente desta seção, simplificando a experiência de início.
+
+2. Monte seu treino:
+   Uma funcionalidade personalizada que capacita os usuários a criar treinos específicos de acordo com seus objetivos e preferências baseando-se no seu último resultado no TAF, a fim de alcançar melhores rendimentos nos próximos testes físicos.
+
+3. Informações:
+   Uma seção abrangente com detalhes cruciais e pessoais, incluindo dicas de treino. Os corredores podem encontrar informações úteis para aprimorar seu desempenho e compreender melhor as funionalidades do aplicativo.
+
+O layout simples e as opções claramente categorizadas tornam a navegação intuitiva, proporcionando aos usuários uma experiência fluida desde o primeiro contato com o aplicativo. 
