@@ -18,7 +18,7 @@ O aplicativo utiliza a estrutura de desenvolvimento de interface gráfica de usu
 ## Esboço do aplicativo 
 
 ![Tela Inicial](EBrun.jpeg)
-Formato: ![Alt Text](url)
+
 
 A tela inicial do nosso aplicativo de treino para corrida apresenta um design intuitivo e funcional com três opções principais no menu de tarefas para optimizar a experiência do usuário.
 1. Início:
