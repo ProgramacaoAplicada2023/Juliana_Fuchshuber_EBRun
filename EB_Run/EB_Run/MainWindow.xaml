@@ -21,7 +21,7 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Background="#252853">
-                <Image Source="Images/EBRun_Logo.png" Margin="20,20,20,10"></Image>
+                <Image Source="Images/EBRun_Logo.png" Margin="20,20,20,30"></Image>
                 
                 <RadioButton Content="INÍCIO"
                              Foreground="White"

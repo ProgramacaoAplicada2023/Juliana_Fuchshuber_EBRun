@@ -16,7 +16,8 @@
                             <Border Grid.Column="0"
                                     Width="15"
                                     Height="15"
-                                    Background="{TemplateBinding Property=Background}"/>
+                                    Background="{TemplateBinding Property=Background}"
+                                    Opacity=".9"/>
                             <TextBlock Grid.Column="1"
                                        Margin="4,0,0,0"
                                        Text="{TemplateBinding Content}"
@@ -33,6 +34,9 @@
         </Style.Setters>
 
         <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#252A3D"/>
+            </Trigger>
             <Trigger Property="IsChecked" Value="True">
                 <Setter Property="Background" Value="#CC2225"/>
             </Trigger>

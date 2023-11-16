@@ -12,7 +12,7 @@
                               Background="{TemplateBinding Property=Background}">
                             <TextBlock Text="{TemplateBinding Content}"
                                        VerticalAlignment="Center"
-                                       Margin="20, 10, 10, 10"
+                                       Margin="20, 20, 10, 20"
                                        FontFamily="Franklin Gothic Demi"
                                        FontSize="18"
                                        TextWrapping="Wrap"/>
@@ -26,6 +26,9 @@
         </Style.Setters>
 
         <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#1F2244"/>
+            </Trigger>
             <Trigger Property="IsChecked" Value="True">
                 <Setter Property="Background" Value="#CC2225"/>
             </Trigger>
