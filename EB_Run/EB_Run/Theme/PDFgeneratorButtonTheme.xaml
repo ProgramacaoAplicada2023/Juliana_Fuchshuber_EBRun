@@ -12,10 +12,10 @@
                             <TextBlock Text="{TemplateBinding Content}"
                                        VerticalAlignment="Center"
                                        HorizontalAlignment="Center"
-                                       FontSize="16"
+                                       FontSize="18"
                                        FontFamily="Franklin Gothic Medium"
                                        Foreground="White"
-                                       Margin="5,5,5,5"
+                                       Margin="15"
                                        Opacity=".9"/>
                         </Grid>
                     </ControlTemplate>

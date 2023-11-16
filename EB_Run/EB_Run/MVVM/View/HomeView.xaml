@@ -5,28 +5,23 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:EB_Run.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="2*"/>
-        </Grid.ColumnDefinitions>
+             d:DesignHeight="600" d:DesignWidth="800">
 
-        <StackPanel>
-            <TextBlock Text="INÍCIO"
+    <StackPanel Margin="75">
+        <TextBlock Text="INÍCIO"
                        FontFamily="Franklin Gothic Heavy"
                        Foreground="White"
                        FontSize="30"
                        HorizontalAlignment="Center"
                        Margin="40"/>
-            <TextBlock FontFamily="Franklin Gothic Book"
+        <TextBlock FontFamily="Franklin Gothic Book"
                        Foreground="White"
                        FontSize="12"
                        HorizontalAlignment="Center"
                        TextWrapping="Wrap"
                        TextAlignment="Justify"
                        Margin="20,0,20,10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</TextBlock>
-            <TextBlock FontFamily="Franklin Gothic Book"
+        <TextBlock FontFamily="Franklin Gothic Book"
                        Foreground="White"
                        FontSize="12"
                        HorizontalAlignment="Center"
@@ -34,6 +29,5 @@
                        TextAlignment="Justify"
                        Margin="20,0,20,0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</TextBlock>
 
-        </StackPanel>
-    </Grid>
+    </StackPanel>
 </UserControl>
