@@ -50,7 +50,20 @@
                        Foreground="White"
                        FontFamily="Franklin Gothic Medium"
                        FontSize="14"/>
-           
+            <TextBox Margin="0,5,0,20"
+                     Style="{StaticResource NameTextbox}"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="1"
+                        Content="Gerar Treino"
+                        Style="{StaticResource PDFgeneratorButton}"/>
+            </Grid>
+            
         </StackPanel>
 
         
