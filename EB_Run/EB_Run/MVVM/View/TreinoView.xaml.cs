@@ -24,5 +24,10 @@ namespace EB_Run.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

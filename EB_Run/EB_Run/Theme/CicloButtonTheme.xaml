@@ -17,11 +17,12 @@
                                     Width="15"
                                     Height="15"
                                     Background="{TemplateBinding Property=Background}"
-                                    Opacity=".9"/>
+                                    Opacity=".9"
+/>
                             <TextBlock Grid.Column="1"
                                        Margin="4,0,0,0"
                                        Text="{TemplateBinding Content}"
-                                       FontFamily="Franklin Gothic Book"
+                                       FontFamily="Franklin Gothic Medium"
                                        FontSize="12"
                                        Foreground="White"/>
                         </Grid>

@@ -12,8 +12,8 @@
                 <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme/TextboxTheme.xaml"/>
                 <ResourceDictionary Source="Theme/CicloButtonTheme.xaml"/>
-                <ResourceDictionary Source="Theme/GanhoDistanciaTheme.xaml"/>
                 <ResourceDictionary Source="Theme/PDFgeneratorButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/GanhoDistanciaButtonTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
