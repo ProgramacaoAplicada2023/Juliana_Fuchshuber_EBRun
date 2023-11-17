@@ -46,7 +46,8 @@ namespace EB_Run.Core
         public List<int> calculaTempoRitimada()
         {
             List<int> _temposRitimada = new List<int>();
-            int tempo = (int)(min12/((distanciaUltimoTAF+distanciaAcrescida)*0.7));
+            List<int> dist = calculaDistanciaRitimada();
+            int tempo = (int)(min12*dist[0]/((distanciaUltimoTAF+distanciaAcrescida)*0.7));
 
             for (int i = 0; i < totalSemanasTreino; i++)
             {
