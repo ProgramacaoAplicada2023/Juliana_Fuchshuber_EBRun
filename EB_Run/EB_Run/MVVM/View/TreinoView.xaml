@@ -361,7 +361,7 @@
                              Style="{StaticResource CicloButton}" Content="250" Margin="0,0,30,0"/>
                 <RadioButton x:Name="dist300" Checked="dist300_Checked"
                              Style="{StaticResource CicloButton}" Content="300" Margin="0,0,30,0"/>
-                <RadioButton x:Name="dist350"Checked="dist350_Checked"
+                <RadioButton x:Name="dist350" Checked="dist350_Checked"
                              Style="{StaticResource CicloButton}" Content="350" Margin="0,0,30,0"/>
                 <RadioButton x:Name="dist400" Checked="dist400_Checked"
                              Style="{StaticResource CicloButton}" Content="400" Margin="0,0,30,0"/>

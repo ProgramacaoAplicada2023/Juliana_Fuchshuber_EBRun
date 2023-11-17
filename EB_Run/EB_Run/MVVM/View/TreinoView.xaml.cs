@@ -141,6 +141,27 @@ namespace EB_Run.MVVM.View
             //gerar pdf dos treinos
             if (!erro)
             {
+                List<int> tempo = corrida.calculaTempoRitimada();
+                List<int> distancia = corrida.calculaDistanciaRitimada() ;
+                List<int> intervalo = corrida.calculaIntervaloTiro();
+                List<int> repeticoes = corrida.calculaRepeticoesTiro();
+
+                string _tempo;
+                string _intervalo;
+                OutputTreino.escreverCabecalho(nome, semanas);
+                
+                for(int i = 0; i < semanas; i++)
+                {
+                    _tempo = Conversor.converterTempo(tempo[i]);
+                    _intervalo = Conversor.converterTempo(intervalo[i]);
+
+                    OutputTreino.escreverSemana(i + 1);
+                    OutputTreino.escreverContinua(_tempo, distancia[i]);
+                    OutputTreino.escreverTiro(_intervalo, repeticoes[i]);
+                }
+
+                MessageBox.Show("Arquivo Gerado com Sucesso!");
+
 
             }
 
