@@ -24,4 +24,3 @@ C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\TreinoView.g.cs
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\MVVM\View\TreinoView.baml
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\Theme\CicloButtonTheme.baml
 C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\Theme\PDFgeneratorButtonTheme.baml
-C:\Users\vinif\Desktop\EBRun\EB_Run\EB_Run\obj\Debug\Theme\GanhoDistanciaButtonTheme.baml

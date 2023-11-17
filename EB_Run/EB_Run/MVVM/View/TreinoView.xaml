@@ -303,18 +303,30 @@
                        Foreground="White"
                        FontFamily="Franklin Gothic Medium"
                        FontSize="14"/>
-            <TextBox Margin="0,10,0,15"
-                     Style="{StaticResource NameTextbox}" TextChanged="TextBox_TextChanged"/>
+            <Label x:Name="NameLabel"
+                   Content=""
+                   Foreground="White"/>
+            <TextBox x:Name="NomeTextBox"
+                     Margin="0,10,0,15"
+                     Background="#2C324C"
+                     FontFamily="Franklin Gothic Book"
+                     FontSize="12"
+                     BorderThickness="0"
+                     Foreground="White"
+                     Padding="5"
+                     Opacity="0.9"/>
             <TextBlock Text="Ciclo de treino"
                        Foreground="White"
                        FontFamily="Franklin Gothic Medium"
                        FontSize="14"/>
             
             <StackPanel Orientation="Horizontal">
-                <RadioButton Content="10 Semanas"
+                <RadioButton x:Name="semanas_10"  Checked="semanas_10_Checked"
+                             Content="10 Semanas"
                              Style="{StaticResource CicloButton}"
                              Margin="15"/>
-                <RadioButton Content="14 Semanas"
+                <RadioButton x:Name="semanas_14" Checked="semanas_14_Checked"
+                             Content="14 Semanas"
                              Style="{StaticResource CicloButton}"
                              Margin="15"/>
             </StackPanel>
@@ -323,8 +335,15 @@
                        Foreground="White"
                        FontFamily="Franklin Gothic Medium"
                        FontSize="14"/>
-            <TextBox Margin="0,10,0,15"
-                     Style="{StaticResource NameTextbox}"/>
+            <TextBox x:Name="distanciaTextBox"
+                     Margin="0,10,0,15"
+                     Background="#2C324C"
+                     FontFamily="Franklin Gothic Book"
+                     FontSize="12"
+                     BorderThickness="0"
+                     Foreground="White"
+                     Padding="5"
+                     Opacity="0.9"/>
             
             <TextBlock Text="Ganho de distância para a próxima prova"
                        Foreground="White"
@@ -332,18 +351,27 @@
                        FontSize="14"/>
             <StackPanel Orientation="Horizontal" Margin="0,10,0,15"
                         HorizontalAlignment="Center">
-                <RadioButton Style="{StaticResource CicloButton}" Content="100" Margin="0,0,40,0"/>
-                <RadioButton Style="{StaticResource CicloButton}" Content="150" Margin="0,0,40,0"/>
-                <RadioButton Style="{StaticResource CicloButton}" Content="250" Margin="0,0,40,0"/>
-                <RadioButton Style="{StaticResource CicloButton}" Content="300" Margin="0,0,40,0"/>
-                <RadioButton Style="{StaticResource CicloButton}" Content="350" Margin="0,0,40,0"/>
-                <RadioButton Style="{StaticResource CicloButton}" Content="400" Margin="0,0,40,0"/>
+                <RadioButton x:Name="dist100" Checked="dist100_Checked"
+                             Style="{StaticResource CicloButton}" Content="100" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist150" Checked="dist150_Checked"
+                             Style="{StaticResource CicloButton}" Content="150" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist200" Checked="dist200_Checked"
+                             Style="{StaticResource CicloButton}" Content="200" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist250" Checked="dist250_Checked"
+                             Style="{StaticResource CicloButton}" Content="250" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist300" Checked="dist300_Checked"
+                             Style="{StaticResource CicloButton}" Content="300" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist350"Checked="dist350_Checked"
+                             Style="{StaticResource CicloButton}" Content="350" Margin="0,0,30,0"/>
+                <RadioButton x:Name="dist400" Checked="dist400_Checked"
+                             Style="{StaticResource CicloButton}" Content="400" Margin="0,0,30,0"/>
             </StackPanel>
             
 
 
             <Grid HorizontalAlignment="Center">
-                <Button Content="Gerar Treino"
+                <Button x:Name="GerarTreino" Click="GerarTreino_Click"
+                        Content="Gerar Treino"
                         Style="{StaticResource PDFgeneratorButton}"/>
             </Grid>
             
