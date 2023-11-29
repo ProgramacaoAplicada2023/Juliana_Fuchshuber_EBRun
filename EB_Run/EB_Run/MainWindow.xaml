@@ -32,9 +32,6 @@
                              Foreground="White"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding TreinoViewCommand}"/>
-                <RadioButton Content="INFORMAÇÕES"
-                             Foreground="White"
-                             Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
 
             <Image Source="Images/Fundo.png"
