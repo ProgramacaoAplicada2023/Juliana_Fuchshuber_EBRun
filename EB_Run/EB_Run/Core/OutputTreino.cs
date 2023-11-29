@@ -4,14 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using iTextSharp.text;
 
 namespace EB_Run.Core
 {
     internal class OutputTreino
     {
-        static string path = $"C:\\Users\\vinif\\Desktop\\EBRun\\treinoEB_Run.txt";
+        static string diretorio = AppDomain.CurrentDomain.BaseDirectory;
+        static string path = "";
 
+        public static void definePath(string nome){
+            //cria o path para o arquivo
+            string nomeArquivo = nome + "_teinoEB_Run.txt";
+            path = Path.Combine(diretorio, nomeArquivo);
+
+        }
         public static void escreverCabecalho(string nome, int ciclo)
         {
 

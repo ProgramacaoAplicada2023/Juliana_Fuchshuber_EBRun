@@ -1,0 +1,104 @@
+Nome: Fux
+Ciclo de Treino: 10
+
+
+Semana: 1
+Corrida Continua:
+	Tempo: 21min25s
+	Distância (metros): 2500
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 2min20s
+	Repetições: 4
+
+Semana: 2
+Corrida Continua:
+	Tempo: 20min20s
+	Distância (metros): 2700
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 2min10s
+	Repetições: 4
+
+Semana: 3
+Corrida Continua:
+	Tempo: 19min20s
+	Distância (metros): 2900
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 2min0s
+	Repetições: 4
+
+Semana: 4
+Corrida Continua:
+	Tempo: 18min25s
+	Distância (metros): 3100
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min50s
+	Repetições: 5
+
+Semana: 5
+Corrida Continua:
+	Tempo: 17min35s
+	Distância (metros): 3400
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min40s
+	Repetições: 5
+
+Semana: 6
+Corrida Continua:
+	Tempo: 16min40s
+	Distância (metros): 3700
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min30s
+	Repetições: 6
+
+Semana: 7
+Corrida Continua:
+	Tempo: 15min55s
+	Distância (metros): 4000
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min20s
+	Repetições: 7
+
+Semana: 8
+Corrida Continua:
+	Tempo: 15min10s
+	Distância (metros): 4400
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min15s
+	Repetições: 7
+
+Semana: 9
+Corrida Continua:
+	Tempo: 14min25s
+	Distância (metros): 4800
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min10s
+	Repetições: 8
+
+Semana: 10
+Corrida Continua:
+	Tempo: 13min40s
+	Distância (metros): 5200
+Tiro:
+	Tempo: 1min30s
+	Distância (metros): 400
+	Intervalo: 1min0s
+	Repetições: 9
+

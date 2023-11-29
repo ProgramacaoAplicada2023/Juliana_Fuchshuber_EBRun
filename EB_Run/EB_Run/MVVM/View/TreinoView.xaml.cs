@@ -148,6 +148,7 @@ namespace EB_Run.MVVM.View
 
                 string _tempo;
                 string _intervalo;
+                OutputTreino.definePath(nome);
                 OutputTreino.escreverCabecalho(nome, semanas);
                 
                 for(int i = 0; i < semanas; i++)
