@@ -162,6 +162,17 @@ namespace EB_Run.MVVM.View
                 }
 
                 MessageBox.Show("Arquivo Gerado com Sucesso!");
+                NomeTextBox.Text = string.Empty;
+                distanciaTextBox.Text = string.Empty;
+                semanas_10.IsChecked = null;
+                semanas_14.IsChecked = null;
+                dist100.IsChecked = null;
+                dist150.IsChecked = null;
+                dist200.IsChecked = null;
+                dist250.IsChecked = null;
+                dist300.IsChecked = null;
+                dist350.IsChecked = null;
+                dist400.IsChecked = null;
 
             }
 
