@@ -12,6 +12,10 @@ A aplicação irá montar uma rotina de treinos de corrida com base no resultado
 
 O TAF é um aspecto muito importante na vida de todo militar, pois influencia diretamente em sua classificação e consequentemente na sua carreira. Dessa forma, é importante que se tenha um bom desempenho no teste. Por esse motivo, é importante que se mantenha uma rotina de treinos com foco e disciplina. Para isso, é necessário ter organização e clareza nos objetivos, fatores esses que serão os pontos centrais do projeto.
 
+## Diagrama de Classes 
+![Tela Inicial](Classes.jpeg)
+
+
 ## Tutorial
 
 O aplicativo utiliza a estrutura de desenvolvimento de interface gráfica de usuário WPF (Windows Presentation Foundation) da Microsoft e é desenvolvido com a linguagem de programação C#. Para executar o aplicativo, certifique-se inicialmente de possuir instalada a versão 4.7.2 ou superior do .NET Framework em seu desktop. Em seguida, faça o download manual do arquivo executável (.exe) no formato ZIP, extraia os arquivos e execute o aplicativo.
