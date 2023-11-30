@@ -2,11 +2,11 @@
 
 ## Conceito
 
-O projeto a ser desenvolvido terá como objetivo ajudar o usuário a melhorar seu desempenho  no Teste de Aptidão Física (TAF), criando uma rotina de treinos com base no resultado do seu último TAF e no tempo que o militar terá para treinar para o próximo teste. Permitirá também que ele acompanhe seu progresso ao registrar as atividades executadas, auxiliando na organização dos treinos e aumentando a motivação.
+O projeto a ser desenvolvido terá como objetivo ajudar o usuário a melhorar seu desempenho  no Teste de Aptidão Física (TAF), criando uma rotina de treinos com base no resultado do seu último TAF e no tempo que o militar terá para treinar para o próximo teste.
 
 ## Função
 
-A aplicação irá montar uma rotina de treinos de corrida com base no resultado do último TAF e no tempo que o usuário terá para se preparar para a próxima prova. Além disso, o usuário poderá interagir com a plataforma para registrar as atividades executadas e acompanhar o seu progresso.
+A aplicação irá montar uma rotina de treinos de corrida com base no resultado do último TAF e no tempo que o usuário terá para se preparar para a próxima prova. 
 
 ## Motivação
 
