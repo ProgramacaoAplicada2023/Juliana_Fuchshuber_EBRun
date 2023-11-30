@@ -14,20 +14,30 @@
                        FontSize="30"
                        HorizontalAlignment="Center"
                        Margin="40"/>
+        
         <TextBlock FontFamily="Franklin Gothic Book"
                        Foreground="White"
                        FontSize="12"
-                       HorizontalAlignment="Center"
+                       HorizontalAlignment="Stretch"
                        TextWrapping="Wrap"
                        TextAlignment="Justify"
-                       Margin="20,0,20,10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</TextBlock>
+                       Margin="20,0,20,10">Seja bem vindo ao "EBRun" - a inovação projetada para impulsionar o desempenho de militares nas provas de corrida, especialmente no Teste de Aptidão Física (TAF). Desenvolvido para simplificar e otimizar o seu processo de treinamento, nossa plataforma permite a geração de planos de treino personalizados, adaptados às suas metas individuais de desempenho no TAF.</TextBlock>
+
         <TextBlock FontFamily="Franklin Gothic Book"
                        Foreground="White"
                        FontSize="12"
-                       HorizontalAlignment="Center"
+                       HorizontalAlignment="Stretch"
                        TextWrapping="Wrap"
                        TextAlignment="Justify"
-                       Margin="20,0,20,0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</TextBlock>
+                       Margin="20,0,20,10">Com uma interface intuitiva, você pode inserir seus objetivos e parâmetros pessoais, resultando em um programa de treinamento eficaz. Um diferencial é a geração automática do treino final em um arquivo txt, armazenado convenientemente na mesma pasta do arquivo executável do aplicativo. Essa abordagem visa fornecer aos militares uma solução prática e eficiente para aprimorar seus índices de corrida, eliminando a complexidade do planejamento manual.</TextBlock>
+
+        <TextBlock FontFamily="Franklin Gothic Book"
+                       Foreground="White"
+                       FontSize="12"
+                       HorizontalAlignment="Stretch"
+                       TextWrapping="Wrap"
+                       TextAlignment="Justify"
+                       Margin="20,0,20,10">Nossa missão é capacitar você a atingir seu potencial máximo nas provas de corrida do TAF, simplificando o caminho para o seu sucesso. Ao automatizar o processo de treinamento, o "EBRun” busca não apenas economizar tempo valioso, mas também inspirar e motivar os militares a alcançarem suas metas de condicionamento físico. Estamos comprometidos em apoiar a sua jornada, promovendo resultados significativos e duradouros. Dê o primeiro passo para alcançar sua melhor versão gerando seu treino de corrida.</TextBlock>
 
     </StackPanel>
 </UserControl>
