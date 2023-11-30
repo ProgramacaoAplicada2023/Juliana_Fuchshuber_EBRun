@@ -15,6 +15,9 @@ O TAF é um aspecto muito importante na vida de todo militar, pois influencia di
 ## Diagrama de Classes 
 ![Tela Inicial](Classes.jpeg)
 
+## Fluxograma 
+
+![Tela Inicial](Fluxograma.jpeg)
 
 ## Tutorial
 
